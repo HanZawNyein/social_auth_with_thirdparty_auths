@@ -129,3 +129,6 @@ LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+MEDIA_URL = 'medis/'
+MEDIA_ROOT = BASE_DIR / 'media'

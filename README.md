@@ -7,3 +7,5 @@
     - forget passwod, change password, password reset
     - AIO dajngo auth framework with single route
     - create new user registration
+    - create, edit profile
+    - message framework
