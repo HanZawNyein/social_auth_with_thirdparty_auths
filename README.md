@@ -10,3 +10,6 @@
     - create, edit profile
     - message framework
     - custom auth banckend
+   
+- Social Auth
+   - Facebook

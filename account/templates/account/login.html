@@ -9,7 +9,18 @@
         {{form.as_p}}
         {% csrf_token %}
         <p><input type="submit" value="Login"/></p>
-    </form>
+    </form> 
+
+    {% comment %} <div class="social">
+        <h1>GG</h1>
+        <ul>
+            <li class="facebook">
+                <a href="{% url "social:begin" "facebook" %}">
+                Sign in with Facebook
+                </a>
+            </li>
+        </ul>
+    </div> {% endcomment %}
 
 {% endblock %}
 
