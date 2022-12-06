@@ -9,3 +9,4 @@
     - create new user registration
     - create, edit profile
     - message framework
+    - custom auth banckend
