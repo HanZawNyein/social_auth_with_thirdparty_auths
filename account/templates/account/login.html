@@ -11,7 +11,7 @@
         <p><input type="submit" value="Login"/></p>
     </form> 
 
-    {% comment %} <div class="social">
+    <div class="social">
         <h1>GG</h1>
         <ul>
             <li class="facebook">
@@ -19,8 +19,13 @@
                 Sign in with Facebook
                 </a>
             </li>
+            <li class="twitter">
+                <a href="{% url "social:begin" "twitter" %}">
+                Sign in with Twitter
+                </a>
+            </li>
         </ul>
-    </div> {% endcomment %}
+    </div>
 
 {% endblock %}
 

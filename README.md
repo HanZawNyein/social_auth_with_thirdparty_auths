@@ -13,3 +13,5 @@
    
 - Social Auth
    - Facebook
+   - Twitter
+   - Google
